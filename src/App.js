@@ -1,21 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import Skills from './components/Skills';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://bongohive.co.zm"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Welcome to BongoHive, hoping you can join our dev team.
-        </a>
-      </header>
+    <div className="App" style={{color:"#fff"}}>
+      <Header/>
+      <Skills />
     </div>
   );
 }
